@@ -1,0 +1,7 @@
+===================================================================== 
+[Wed 11/18/2026 17:16:06.60] === MEMULAI SELURUH PROSES BACKUP OTOMATIS === 
+[1/4] Menjalankan backup_radius.bat...
+[Wed 11/18/2026 17:16:06.65] Memulai proses backup Radius dari ...
+[DEBUG] Filter download WinSCP: backupRadiusdb_*>=7D | */
+[DEBUG] Lokasi Log: C:\BackupDB\backup\log\backup_radius_log.txt
+Host: 
