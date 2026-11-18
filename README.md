@@ -6,12 +6,12 @@ Dokumentasi ini menjelaskan arsitektur, konfigurasi, dan cara penggunaan kumpula
 
 ## 📂 Daftar Skrip & Target Server
 
-| No | Nama Layanan | IP Remote (`SCP_HOST`) | Folder Sumber Remote (`REMOTE_DIR`) | Folder Tujuan Lokal (`LOCAL_DIR`) | Pola / Filter File |
-| :---: | :--- | :--- | :--- | :--- | :--- |
-| **1** | **Cacti Backup** | `103.174.121.4` | `/root/backup_cactidb` | `C:\BackupDB\cacti` | `backupCactidb_*`, `cacti_files_backup_*` |
-| **2** | **Radius Backup** | `103.174.121.3` | `/root/backup_radiusdb` | `C:\BackupDB\radius` | `backupRadiusdb_*` |
-| **3** | **Zimbra MySQL** | `103.174.121.18` | `/opt/zimbra/backup/mailbox` | `C:\BackupDB\zimbra` | `zimbra_mysql_*` |
-| **4** | **Zimbra Mailbox** | `103.174.121.18` | `/opt/zimbra/backup/mailbox` | `C:\BackupDB\zimbra` | `*@jangkaunet.com.zip` |
+| No | Nama Layanan | Folder Sumber Remote (`REMOTE_DIR`) | Folder Tujuan Lokal (`LOCAL_DIR`) | Pola / Filter File |
+| :---: | :--- | :--- | :--- | :--- |
+| **1** | **Cacti Backup** | `/root/backup_cactidb` | `C:\BackupDB\cacti` | `backupCactidb_*`, `cacti_files_backup_*` |
+| **2** | **Radius Backup** | `/root/backup_radiusdb` | `C:\BackupDB\radius` | `backupRadiusdb_*` |
+| **3** | **Zimbra MySQL** | `/opt/zimbra/backup/mailbox` | `C:\BackupDB\zimbra` | `zimbra_mysql_*` |
+| **4** | **Zimbra Mailbox** | `/opt/zimbra/backup/mailbox` | `C:\BackupDB\zimbra` | `*@jangkaunet.com.zip` |
 
 ---
 
